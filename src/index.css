@@ -1,0 +1,263 @@
+
+.menu {
+  display: flex;
+  /* border: 3px solid red; */
+}
+
+
+.filter-options {
+  /* height: 50rem; */
+  width: 25%;
+  height: 80%;
+  padding: 16px;
+  box-sizing: border-box;
+  /* border: 3px solid blue; */
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4em;
+}
+
+.fields {
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-items {
+  width: 100%;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  /* Three columns */
+  gap: 40px;
+
+  flex-flow: row wrap;
+}
+
+
+.menu-item {
+
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+/* Style the cart component */
+.cart {
+  width: 75%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.cart-page {
+  display: flex;
+}
+
+.cart ul {
+  list-style: none;
+}
+
+.cart li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-container{
+  position: relative;
+}
+
+.cart-length {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: ; */
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.fa-cart-shopping{
+  /* height: 2rem; */
+  font-size: 1.8rem;
+}
+
+.quantity-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.quantity-controls button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #100f0f;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Style the order summary component */
+.order-summary {
+  background-color: #d8d4d4;
+  /* max-width: 800px; */
+  width: 25%;
+  margin: 0;
+  max-height: 250px;
+  /* margin-right: 1rem; */
+  padding: 1rem;
+}
+
+.order-summary h2{
+  font-size: 2.5rem;
+  margin-bottom: 1.3rem;
+
+}
+
+.order-summary p{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+
+
+/* Style the button */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
+}
+
+
+/* new css */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a common font family for the entire app */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+.home {
+  width: 100%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+
+
+.allLinks {
+  background-color: #858080;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 1.1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  /* font-weight: bold; */
+  font-size: 1.2rem;
+  /* margin-top: 20px; */
+}
+
+.homeLink {
+  text-decoration: none;
+  color: #fff;
+  /* margin: 0 1.1rem; */
+  font-size: 1.2em;
+  /* font-weight: bold; */
+}
+
+nav a:hover,
+.homeLink:hover {
+  color: #dcd9d9dd;
+}
+
+.header {
+  background-color: #858080;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+
+.mobile-image {
+  height: 12rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+input {
+  font-weight: lighter;
+}
+
+.mobile-heading {
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-left: 2rem;
+}
+
+.order-summary button{
+  width: 100%;
+  background-color: #867c7c;
+}
